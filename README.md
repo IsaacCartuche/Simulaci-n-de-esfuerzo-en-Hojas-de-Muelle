@@ -12,7 +12,7 @@ El proyecto combina modelos físicos deterministas de flexión de vigas con el p
 ## 📊 Características Principales
 
 * **Motor Pseudoaleatorio Propio (LCG):** Implementación desde cero de un Generador Congruencial Lineal bajo el estándar numérico MINSTD ($m = 2^{31}-1$, $a = 16807$), garantizando independencia total y reproducibilidad sin librerías nativas de azar.
-* **Auditoría Estadística:** Suite de pruebas integrada que ejecuta evaluaciones vectorizadas de *Uniformidad (Chi-Cuadrado $chi^2$)* e *Independencia (Prueba de Corridas)* para validar la calidad matemática del generador.
+* **Auditoría Estadística:** Suite de pruebas integrada que ejecuta evaluaciones vectorizadas de *Uniformidad (Chi-Cuadrado $chi^{2}$)* e *Independencia (Prueba de Corridas)* para validar la calidad matemática del generador.
 * **Simulación de Monte Carlo:** Procesamiento masivo de $100,000$ escenarios mediante la transformada inversa para mapear perfiles exponenciales de impacto dinámico.
 * **Teoría de Colas Mecánica ($M/G/1$):** Modelado del muelle como un servidor viscoelástico con tiempos de relajación elástica, simulando la superposición lineal y el "encolamiento" de fuerzas cuando la frecuencia de baches supera el tiempo de amortiguamiento estructural.
 * **Mapeo Espacial 2D (Heatmap):** Renderizado geométrico que proyecta la forma parabólica real de la viga y localiza visualmente los picos críticos de esfuerzo en el punto central de anclaje de los pernos en U.
